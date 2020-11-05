@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/sivin-web/static/css/main.c8da08e4.chunk.css",
+    "main.js": "/sivin-web/static/js/main.4d960acc.chunk.js",
+    "main.js.map": "/sivin-web/static/js/main.4d960acc.chunk.js.map",
+    "runtime-main.js": "/sivin-web/static/js/runtime-main.f490a1aa.js",
+    "runtime-main.js.map": "/sivin-web/static/js/runtime-main.f490a1aa.js.map",
+    "static/js/2.80760129.chunk.js": "/sivin-web/static/js/2.80760129.chunk.js",
+    "static/js/2.80760129.chunk.js.map": "/sivin-web/static/js/2.80760129.chunk.js.map",
+    "static/js/3.447b3337.chunk.js": "/sivin-web/static/js/3.447b3337.chunk.js",
+    "static/js/3.447b3337.chunk.js.map": "/sivin-web/static/js/3.447b3337.chunk.js.map",
+    "index.html": "/sivin-web/index.html",
+    "static/css/main.c8da08e4.chunk.css.map": "/sivin-web/static/css/main.c8da08e4.chunk.css.map",
+    "static/js/2.80760129.chunk.js.LICENSE.txt": "/sivin-web/static/js/2.80760129.chunk.js.LICENSE.txt",
+    "static/media/QR.028b1a3d.png": "/sivin-web/static/media/QR.028b1a3d.png",
+    "static/media/calculator.e7a7c02d.png": "/sivin-web/static/media/calculator.e7a7c02d.png",
+    "static/media/color switcher.2021e1e5.png": "/sivin-web/static/media/color switcher.2021e1e5.png",
+    "static/media/emoji.a9c53e26.png": "/sivin-web/static/media/emoji.a9c53e26.png",
+    "static/media/Myweb.css": "/sivin-web/static/media/twitter.0e42dd3d.png",
+    "static/media/fb img.07585178.png": "/sivin-web/static/media/fb img.07585178.png",
+    "static/media/fish bowl.db45222d.png": "/sivin-web/static/media/fish bowl.db45222d.png",
+    "static/media/logo.dd6e146d.jpeg": "/sivin-web/static/media/logo.dd6e146d.jpeg",
+    "static/media/sound.8e16d3f0.png": "/sivin-web/static/media/sound.8e16d3f0.png",
+    "static/media/tip calculator.bbbe4936.png": "/sivin-web/static/media/tip calculator.bbbe4936.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f490a1aa.js",
+    "static/js/2.80760129.chunk.js",
+    "static/css/main.c8da08e4.chunk.css",
+    "static/js/main.4d960acc.chunk.js"
+  ]
+}
