@@ -50,6 +50,11 @@ header nav a {
   font-size: 22px;
 }
 
+header nav a:hover,
+header nav a.active {
+  color: #6a11cb;
+}
+
 .content {
   padding: 0;
 }

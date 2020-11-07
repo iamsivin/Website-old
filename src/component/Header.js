@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Myweb.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../logo.jpeg";
 
 export default class main extends Component {
@@ -13,9 +13,8 @@ export default class main extends Component {
           </div>
           <div className="block right">
             <nav className="nav-link">
-              <div className="nav-link" /> 
-              <Link to="/">About </Link>
-              <Link to="/Work">Works</Link>
+              <NavLink activeClassName="active" exact to="/">About </NavLink>
+              <NavLink activeClassName="active" exact to="/Work">Works</NavLink>
               <a href="https://github.com/sivin-git" className="nav_contact">
                 GitHub
               </a>
