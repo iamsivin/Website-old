@@ -35,11 +35,6 @@ header nav {
   position: relative;
 }
 
-header nav a.active_link,
-header nav a:hover {
-  color: #1b1c1e;
-}
-
 header .left h4,
 header nav a {
   height: 32px;
@@ -49,8 +44,8 @@ header nav a {
 header nav a {
   display: inline-block;
   text-decoration: none;
-  color: #a9a9a9;
-  margin-right: 24px;
+  color: #3d3d3d;
+  margin-right: 64px;
   font-weight: 600;
   font-size: 22px;
 }
@@ -421,7 +416,7 @@ a:focus {
 
   header nav a {
     text-decoration: none;
-    color: #a9a9a9;
+    color: #3d3d3d;
     font-weight: 700;
     font-size: 19px;
   }
@@ -469,9 +464,9 @@ a:focus {
   }
 
   .caption {
-    font-weight: 400;
+    font-weight: 501;
     font-size: 20px;
-    width: 300px;
+    width: 305px;
     margin-top: -10;
     line-height: 28px;
   }
@@ -619,7 +614,7 @@ a:focus {
 
   .nav-link {
     display: flex;
-    margin-left: 54px;
+    margin-left: 50px;
   }
 
   header .left img {
@@ -639,9 +634,9 @@ a:focus {
 
   header nav a {
     text-decoration: none;
-    color: #a9a9a9;
-    font-weight: 700;
-    font-size: 18px;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 19px;
   }
 
   .about {
@@ -798,7 +793,7 @@ a:focus {
 
   .nav-link {
     display: flex;
-    margin-left: 50px;
+    margin-left: 48px;
   }
 
   header .left img {
@@ -808,7 +803,7 @@ a:focus {
   }
 
   .pro-pic {
-    margin-left: 30px;
+    margin-left: 21px;
     margin-top: 5px;
   }
 
@@ -818,9 +813,9 @@ a:focus {
 
   header nav a {
     text-decoration: none;
-    color: #a9a9a9;
-    font-weight: 700;
-    font-size: 18px;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 19px;
   }
 
   .about {

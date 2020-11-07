@@ -14,8 +14,8 @@ export default class main extends Component {
           <div className="block right">
             <nav className="nav-link">
               <div className="nav-link" /> 
-              <Link className="active_link" to="/">About </Link>
-              <Link className="active_link" to="/Work">Works</Link>
+              <Link to="/">About </Link>
+              <Link to="/Work">Works</Link>
               <a href="https://github.com/sivin-git" className="nav_contact">
                 GitHub
               </a>
