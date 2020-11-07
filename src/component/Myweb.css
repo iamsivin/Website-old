@@ -45,14 +45,14 @@ header nav a {
   display: inline-block;
   text-decoration: none;
   color: #3d3d3d;
-  margin-right: 64px;
+  margin-right: 65px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 header nav a:hover,
 header nav a.active {
-  color: #6a11cb;
+  color: #3e30e0;
 }
 
 .content {
@@ -310,6 +310,10 @@ a:focus {
     border-radius: 50%;
   }
 
+  header nav a {
+    margin-right: 65px;
+  }
+
   .pro-pic {
     margin-left: 15px;
     margin-top: 5px;
@@ -422,8 +426,9 @@ a:focus {
   header nav a {
     text-decoration: none;
     color: #3d3d3d;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 19px;
+    margin-right: 30px;
   }
 
   header .left img {
@@ -433,13 +438,13 @@ a:focus {
   }
 
   .pro-pic {
-    margin-left: 15px;
+    margin-left: 12px;
     margin-top: 8px;
   }
 
   .nav-link {
     display: flex;
-    margin-left: 66px;
+    margin-left: 125px;
   }
 
   .pro-wrap {
@@ -619,7 +624,7 @@ a:focus {
 
   .nav-link {
     display: flex;
-    margin-left: 50px;
+    margin-left: 100px;
   }
 
   header .left img {
@@ -642,6 +647,7 @@ a:focus {
     color: #3d3d3d;
     font-weight: 600;
     font-size: 19px;
+    margin-right: 24px;
   }
 
   .about {
@@ -798,7 +804,7 @@ a:focus {
 
   .nav-link {
     display: flex;
-    margin-left: 48px;
+    margin-left: 90px;
   }
 
   header .left img {
@@ -821,6 +827,7 @@ a:focus {
     color: #3d3d3d;
     font-weight: 600;
     font-size: 19px;
+    margin-right: 30px;
   }
 
   .about {
