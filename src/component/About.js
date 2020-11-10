@@ -22,8 +22,7 @@ export default class About extends Component {
                   </p>
                   <br />
                   <p className="caption">
-                    And a beginner when it comes to frameworks like VueJS and
-                    React.
+                    And a beginner when it comes to frameworks like React and VueJS.
                   </p>
                 </h1>
               </div>
