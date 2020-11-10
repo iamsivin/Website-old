@@ -1126,7 +1126,7 @@ a:focus {
   }
 }
 
-@media only screen and (min-width: 250px) and (max-width: 360px) {
+@media only screen and (min-width: 200px) and (max-width: 360px) {
   body {
     overflow-x: hidden;
   }
@@ -1147,7 +1147,7 @@ a:focus {
 
   .nav-link {
     display: flex;
-    margin-left: 80px;
+    margin-left: 85px;
   }
 
   header .left img {
@@ -1157,7 +1157,7 @@ a:focus {
   }
 
   .pro-pic {
-    margin-left: 5px;
+    margin-left: 0px;
     margin-top: 5px;
   }
 
@@ -1174,12 +1174,12 @@ a:focus {
   }
 
   .about {
-    padding: calc(100px + 100px) 0 100px;
+    padding: calc(100px + 60px) 0 100px;
     position: relative;
   }
 
   .about h1 span {
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 800;
   }
 
@@ -1266,7 +1266,7 @@ a:focus {
   .sharelinks {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 15px;
+    gap: 10px;
     position: relative;
     grid-template-rows: 70px;
     padding-left: 0px;
@@ -1280,27 +1280,27 @@ a:focus {
   }
 
   section.contact #social_share_list li a#social_share_github {
-    background-size: 130px;
+    background-size: 115px;
   }
 
   section.contact #social_share_list li a#social_share_email {
-    background-size: 130px;
+    background-size: 115px;
   }
 
   section.contact #social_share_list li a#social_share_link {
-    background-size: 130px;
+    background-size: 115px;
   }
 
   section.contact #social_share_list li a#social_share_twitter {
-    background-size: 130px;
+    background-size: 115px;
   }
 
   section.contact #social_share_list li a#social_share_instagram {
-    background-size: 130px;
+    background-size: 115px;
   }
 
   section.contact #social_share_list li a#social_share_fb {
-    background-size: 130px;
+    background-size: 115px;
   }
 
   section.contact {
