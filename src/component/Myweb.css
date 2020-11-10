@@ -507,15 +507,6 @@ a:focus {
     padding: 0;
   }
 
-  .open_new {
-    font-weight: 600;
-    font-size: 16px;
-    border: 0;
-    padding-top: 20px;
-    color: #0077b5;
-    outline: none;
-  }
-
   .works-wrap {
     display: block;
     margin-top: 110px;
@@ -858,15 +849,6 @@ a:focus {
     display: none;
   }
 
-  .open_new {
-    font-weight: 400;
-    font-size: 16px;
-    border: 0;
-    padding-top: 20px;
-    color: #0077b5;
-    outline: none;
-  }
-
   .works-wrap {
     display: block;
     margin-top: 110px;
@@ -1037,15 +1019,6 @@ a:focus {
     display: none;
   }
 
-  .open_new {
-    font-weight: 400;
-    font-size: 16px;
-    border: 0;
-    padding-top: 20px;
-    color: #0077b5;
-    outline: none;
-  }
-
   .works-wrap {
     display: block;
     margin-top: 110px;
@@ -1135,7 +1108,12 @@ a:focus {
     margin: 0;
     padding: 0;
     display: flex;
+    width: calc(70% - 100px - 48px);
     justify-content: center;
+  }
+
+  header {
+    width: 90%;
   }
 
   .header-wrap {
@@ -1147,7 +1125,7 @@ a:focus {
 
   .nav-link {
     display: flex;
-    margin-left: 85px;
+    margin-left: 60px;
   }
 
   header .left img {
@@ -1183,6 +1161,10 @@ a:focus {
     font-weight: 800;
   }
 
+  .name_wrap {
+    margin: 0;
+  }
+
   .name {
     justify-content: center;
     display: flex;
@@ -1195,8 +1177,9 @@ a:focus {
   }
 
   .cap {
-    width: 330px;
+    width: 250px;
     height: 220px;
+    margin: 0 auto;
   }
 
   .caption {
@@ -1204,6 +1187,8 @@ a:focus {
     font-size: 15px;
     width: 245px;
     line-height: 28px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .about-name {
@@ -1217,15 +1202,6 @@ a:focus {
 
   .contact-name {
     display: none;
-  }
-
-  .open_new {
-    font-weight: 400;
-    font-size: 16px;
-    border: 0;
-    padding-top: 20px;
-    color: #0077b5;
-    outline: none;
   }
 
   .workimg {
