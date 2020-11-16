@@ -1112,10 +1112,6 @@ a:focus {
     justify-content: center;
   }
 
-  header {
-    width: 90%;
-  }
-
   .header-wrap {
     display: flex;
     justify-content: center;
