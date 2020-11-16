@@ -1,10 +1,8 @@
-import React, { Component } from "react";
 import "./Myweb.css";
 import { NavLink } from "react-router-dom";
 import Logo from "../logo.jpeg";
 
-export default class main extends Component {
-  render() {
+ const Header = () => {
     return (
       <header>
         <div className="container header-wrap">
@@ -24,5 +22,4 @@ export default class main extends Component {
       </header>
     );
   }
-}
-
+export default Header;

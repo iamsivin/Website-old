@@ -1,8 +1,6 @@
-import React, { Component } from "react";
 import "./Myweb.css";
 
-export default class About extends Component {
-  render() {
+const About = () => {
     return (
       <div className="content">
         <section className="about">
@@ -107,4 +105,4 @@ export default class About extends Component {
       </div>
     );
   }
-}
+  export default About;

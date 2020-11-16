@@ -3,7 +3,7 @@ import About from "./component/About";
 import Works from "./component/Works";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Header />
@@ -12,5 +12,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

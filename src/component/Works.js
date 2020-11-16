@@ -1,16 +1,15 @@
-import React, { Component } from "react";
 import "./Myweb.css";
 import Calculator from "../static/calculator.png";
 import Fishbowl from "../static/fish bowl.png";
 import Colorswitcher from "../static/color switcher.png";
+import FB from "../static/fb img.png";
 import Emoji from "../static/emoji.png";
 import Tip from "../static/tip calculator.png";
 import QRcode from "../static/QR.png";
-import FB from "../static/fb img.png";
+import Clock from "../static/digital clock.png";
 import Sound from "../static/sound.png";
 
-export default class works extends Component {
-  render() {
+ const Works = () => {
     return (
       <section className="container">
         <div className="works-wrap wrap">
@@ -62,6 +61,24 @@ export default class works extends Component {
                       <h1 className="piece_title">Color Switcher</h1>
                       <p className="piece_description">
                         Background color switcher, build using VueJS, CSS, HTML.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </ul>
+            </div>
+            <div className="block right">
+              <ul className="works">
+                <a href="https://github.com/sivin-git">
+                  <div className="piece inner_container">
+                    <div className="image">
+                      <img className="workimg" src={FB} alt="facebook" />
+                    </div>
+                    <div className="piece_content">
+                      <h1 className="piece_title">Facebook Login</h1>
+                      <p className="piece_description">
+                        Fake facebook login page, build using JavaScript, CSS,
+                        HTML.
                       </p>
                     </div>
                   </div>
@@ -125,12 +142,12 @@ export default class works extends Component {
                 <a href="https://github.com/sivin-git">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={FB} alt="facebook" />
+                      <img className="workimg" src={Clock} alt="facebook" />
                     </div>
                     <div className="piece_content">
-                      <h1 className="piece_title">Facebook Login</h1>
+                      <h1 className="piece_title">Digital Clock</h1>
                       <p className="piece_description">
-                        Fake facebook login page, build using JavaScript, CSS,
+                        Digital Clock website, build using JavaScript, CSS,
                         HTML.
                       </p>
                     </div>
@@ -161,4 +178,4 @@ export default class works extends Component {
       </section>
     );
   }
-}
+export default Works;
