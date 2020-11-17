@@ -53,7 +53,8 @@ header nav a {
 
 header nav a:hover,
 header nav a.active {
-  color: #0052df;
+  color: #004aca;
+  transition: transform .5s ease;
   transform: scale(1.03);
 }
 
@@ -214,26 +215,32 @@ section.contact #social_share_list li a#social_share_fb {
 
 #social_share_github:hover {
   transform: scale(1.06);
+  transition: transform .5s ease;
 }
 
 #social_share_email:hover {
   transform: scale(1.06);
+  transition: transform .5s ease;
 }
 
 #social_share_twitter:hover {
   transform: scale(1.06);
+  transition: transform .5s ease;
 }
 
 #social_share_link:hover {
   transform: scale(1.06);
+  transition: transform .5s ease;
 }
 
 #social_share_instagram:hover {
   transform: scale(1.06);
+  transition: transform .5s ease;
 }
 
 #social_share_fb:hover {
   transform: scale(1.06);
+  transition: transform .5s ease;
 }
 
 .works-wrap {
@@ -258,6 +265,11 @@ section.contact #social_share_list li a#social_share_fb {
 
 .works {
   display: flex;
+}
+
+.works:hover{
+  transition: transform .5s ease;
+  transform: scale(1.015);
 }
 
 .work-name {
