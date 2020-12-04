@@ -1,4 +1,4 @@
-import "./Myweb.css";
+import "./Works.css";
 import Calculator from "../static/calculator.png";
 import Fishbowl from "../static/fish bowl.png";
 import Colorswitcher from "../static/color switcher.png";
@@ -11,16 +11,16 @@ import Sound from "../static/sound.png";
 
  const Works = () => {
     return (
-      <section className="container">
+      <section className="container workcontainer">
         <div className="works-wrap wrap">
           <div className="work-right-wrap">
-            <div className="block right">
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git/Calculator">
                   <div className="piece inner_container">
                     <div className="image">
                       <img
-                        className="workimg" src={Calculator} alt="calculator"/>
+                        className="workimg" src={Calculator} alt=""/>
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">Calculator</h1>
@@ -31,13 +31,13 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+            
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git/Fish-Bowl">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={Fishbowl} alt="fishbowl"/>
+                      <img className="workimg" src={Fishbowl} alt=""/>
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">Fish Bowl</h1>
@@ -48,14 +48,13 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git/Color-Switcher">
                   <div className="piece inner_container">
                     <div className="image">
                       <img
-                        className="workimg" src={Colorswitcher} alt="colorswitcher"/>
+                        className="workimg" src={Colorswitcher} alt=""/>
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">Color Switcher</h1>
@@ -66,13 +65,12 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+
               <ul className="works">
                 <a href="https://github.com/sivin-git">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={FB} alt="facebook" />
+                      <img className="workimg" src={FB} alt="" />
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">Facebook Login</h1>
@@ -84,14 +82,13 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git/Emoji-Switcher">
                   <div className="piece inner_container">
                     <div className="image">
                       <img
-                        className="workimg" src={Emoji} alt="emojiswitcher"/>
+                        className="workimg" src={Emoji} alt=""/>
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">Emoji Switcher</h1>
@@ -102,13 +99,12 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git/Tip-Calculator">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={Tip} alt="tipcalculator" />
+                      <img className="workimg" src={Tip} alt="" />
                       <div className="piece_content">
                         <h1 className="piece_title">Tip Calculator</h1>
                         <p className="piece_description">
@@ -119,13 +115,12 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git/QRCode-Generator">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={QRcode} alt="generator" />
+                      <img className="workimg" src={QRcode} alt="" />
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">QR Code Generator</h1>
@@ -136,13 +131,12 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={Clock} alt="facebook" />
+                      <img className="workimg" src={Clock} alt="" />
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">Digital Clock</h1>
@@ -154,13 +148,12 @@ import Sound from "../static/sound.png";
                   </div>
                 </a>
               </ul>
-            </div>
-            <div className="block right">
+            
               <ul className="works">
                 <a href="https://github.com/sivin-git">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={Sound} alt="sound" />
+                      <img className="workimg" src={Sound} alt="" />
                     </div>
                     <div className="piece_content">
                       <h1 className="piece_title">Sounds</h1>
@@ -174,7 +167,6 @@ import Sound from "../static/sound.png";
               </ul>
             </div>
           </div>
-        </div>
       </section>
     );
   }

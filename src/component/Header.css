@@ -1,0 +1,273 @@
+header {
+  display: block;
+  width: 100%;
+  position: fixed;
+  padding: 24px 0;
+  z-index: 9999;
+  background: #fdfdfd;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+header .left img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.pro-pic {
+  margin-top: 5px;
+}
+
+header nav {
+  height: 32px;
+  position: relative;
+}
+
+header .left h4,
+header nav a {
+  height: 32px;
+  line-height: 80px;
+}
+
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3d3d3d;
+  margin-right: 65px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header nav a:hover,
+header nav a.active {
+  color: #004aca;
+  transition: transform .5s ease;
+  transform: scale(1.03);
+}
+
+@media only screen and (min-width: 731px) and (max-width: 1024px) {
+  .header-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header .left img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  header nav a {
+    margin-right: 65px;
+  }
+
+  .pro-pic {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .nav-link {
+    display: flex;
+    margin-left: 4px;
+  }
+
+  .block.right {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 611px) and (max-width: 730px) {
+  header {
+    margin: auto;
+    padding: 18px 0px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 19px;
+    margin-right: 30px;
+  }
+
+  header .left img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  .pro-pic {
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+
+  .nav-link {
+    display: flex;
+    margin-left: 90px;
+  }
+
+  .pro-wrap {
+    width: 15%;
+  }
+
+  .block.right {
+    margin-left: 0px;
+  }
+
+  .right {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 610px) {
+  .header-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px 25px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 30px;
+  }
+
+  .nav-link {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  header .left img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .pro-pic {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+
+  .nav_contact {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 509px) {
+  .header-wrap {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row;
+    padding: 5px 25px;
+  }
+
+  .nav-link {
+    display: flex;
+    margin-left: 140px;
+  }
+
+  header .left img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .pro-pic {
+    margin-left: 65px;
+    margin-top: 5px;
+  }
+
+  .nav_contact {
+    display: none;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 19px;
+    margin-right: 24px;
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 429px) {
+  .header-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px 25px;
+  }
+
+  .nav-link {
+    display: flex;
+    margin-left: 120px;
+  }
+
+  header .left img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .pro-pic {
+    margin-left: 35px;
+    margin-top: 5px;
+  }
+
+  .nav_contact {
+    display: none;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 19px;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 350px) {
+  .header-wrap {
+    display: flex;
+    justify-content: center !important;
+    flex-direction: row;
+    padding: 5px 25px;
+  }
+
+  .nav-link {
+    display: flex;
+    margin-left: 100px;
+  }
+
+  header .left img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .pro-pic {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .nav_contact {
+    display: none;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+}

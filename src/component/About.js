@@ -1,4 +1,4 @@
-import "./Myweb.css";
+import "./About.css";
 
 const About = () => {
     return (
@@ -40,9 +40,7 @@ const About = () => {
                       <li>
                         <a
                           id="social_share_github"
-                          href="https://github.com/sivin-git"
-                        >
-                          Github
+                          href="https://github.com/sivin-git">
                         </a>
                       </li>
                     </div>
@@ -50,9 +48,7 @@ const About = () => {
                       <li>
                         <a
                           id="social_share_email"
-                          href="mailto:iamsivin@gmail.com"
-                        >
-                          Email
+                          href="mailto:iamsivin@gmail.com">
                         </a>
                       </li>
                     </div>
@@ -60,9 +56,7 @@ const About = () => {
                       <li>
                         <a
                           id="social_share_twitter"
-                          href="https://twitter.com/sivin_varghese"
-                        >
-                          Twitter
+                          href="https://twitter.com/sivin_varghese">
                         </a>
                       </li>
                     </div>
@@ -70,9 +64,7 @@ const About = () => {
                       <li>
                         <a
                           id="social_share_link"
-                          href="https://www.linkedin.com/in/sivin-varghese-021a471a4"
-                        >
-                          Linkedin
+                          href="https://www.linkedin.com/in/sivin-varghese-021a471a4">
                         </a>
                       </li>
                     </div>
@@ -80,9 +72,7 @@ const About = () => {
                       <li>
                         <a
                           id="social_share_instagram"
-                          href="https://www.instagram.com/_psy.kid___/"
-                        >
-                          Instagram
+                          href="https://www.instagram.com/_psy.kid___/">
                         </a>
                       </li>
                     </div>
@@ -90,9 +80,7 @@ const About = () => {
                       <li>
                         <a
                           id="social_share_fb"
-                          href="https://www.facebook.com/sivin.thoppil/"
-                        >
-                          Facebook
+                          href="https://www.facebook.com/sivin.thoppil/">
                         </a>
                       </li>
                     </div>

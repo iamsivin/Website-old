@@ -1,6 +1,7 @@
 import Header from "./component/Header";
 import About from "./component/About";
 import Works from "./component/Works";
+import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
