@@ -450,6 +450,7 @@
        .content {
            display: grid !important;
            justify-content: center !important;
+           margin-right: 20px;
        }
 
        .about {
