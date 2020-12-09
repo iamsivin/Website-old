@@ -36,7 +36,7 @@
    }
 
    .about {
-       padding: calc(130px + 130px) 0 100px;
+       padding: calc(120px + 120px) 0 100px;
        position: relative;
    }
 
@@ -48,10 +48,6 @@
        width: 100%;
        top: -144px;
        z-index: -1;
-   }
-
-   .hai {
-       padding-bottom: 25px;
    }
 
    section.contact #social_share_list {
@@ -172,11 +168,11 @@
        }
 
        .about {
-           padding: calc(120px + 120px) 0 230px;
+           padding: calc(90px + 90px) 0 200px;
        }
 
        .hai {
-           padding-bottom: 15px;
+           padding-top: 5px;
        }
 
        .caption {
@@ -259,7 +255,7 @@
        }
 
        .hai {
-           padding-bottom: 6px;
+           padding-bottom: 5px;
        }
 
        .nav_contact {
@@ -363,7 +359,7 @@
        }
 
        .hai {
-           padding-bottom: 6px;
+           padding-bottom: 4px;
        }
 
        .nav_contact {
@@ -456,7 +452,7 @@
        .about {
            padding: calc(100px + 100px) 0 140px;
            position: relative;
-           padding-top: calc(210px);
+           padding-top: calc(190px);
        }
 
        .about h1 span {
@@ -552,7 +548,7 @@
        .about {
            padding: calc(100px + 100px) 0 140px;
            position: relative;
-           padding-top: calc(210px);
+           padding-top: calc(190px);
        }
 
        .about h1 span {
@@ -568,7 +564,7 @@
        }
 
        .hai {
-           padding-bottom: 4px;
+           padding-bottom: 3px;
        }
 
        .cap {
@@ -648,7 +644,7 @@
        }
 
        .about {
-           padding: calc(100px + 60px) 0 100px;
+           padding: calc(70px + 70px) 0 100px;
            position: relative;
        }
 
@@ -669,7 +665,7 @@
        }
 
        .hai {
-           padding-bottom: 4px;
+           padding-bottom: 0px;
        }
 
        .cap {
