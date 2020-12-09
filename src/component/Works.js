@@ -34,7 +34,7 @@ import Sound from "../static/sound.png";
               </ul>
 
               <ul className="works">
-                <a href="https://github.com/sivin-git/Color-Switcher">
+                <a href="https://github.com/sivin-git/ChatNow">
                   <div className="piece inner_container">
                     <div className="image">
                       <img
@@ -43,7 +43,7 @@ import Sound from "../static/sound.png";
                     <div className="piece_content">
                       <h1 className="piece_title">ChatNow</h1>
                       <p className="piece_description">
-                        Web Chat App buils using React JS, Firebase, CSS, HTML.
+                        Web Chat App build using React JS, Firebase, CSS, HTML.
                       </p>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ import Sound from "../static/sound.png";
                     <div className="piece_content">
                       <h1 className="piece_title">Facebook Login</h1>
                       <p className="piece_description">
-                        Fake facebook login page, build using JavaScript, CSS,
+                        Facebook login page, build using JavaScript, CSS,
                         HTML.
                       </p>
                     </div>
