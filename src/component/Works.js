@@ -102,7 +102,7 @@ import Sound from "../static/sound.png";
               </ul>
 
               <ul className="works">
-                <a href="https://github.com/sivin-git/Color-Switcher">
+                <a href="https://github.com/sivin-git">
                   <div className="piece inner_container">
                     <div className="image">
                       <img
@@ -136,7 +136,7 @@ import Sound from "../static/sound.png";
               </ul>
 
               <ul className="works">
-                <a href="https://github.com/sivin-git/Fish-Bowl">
+                <a href="https://github.com/sivin-git">
                   <div className="piece inner_container">
                     <div className="image">
                       <img className="workimg" src={Todo} alt=""/>
