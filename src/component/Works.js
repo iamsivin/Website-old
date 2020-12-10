@@ -2,8 +2,10 @@ import "./Works.css";
 import Calculator from "../static/calculator.png";
 import Fishbowl from "../static/fish bowl.png";
 import Chatnow from "../static/chatnow.png";
+import TicTacToe from "../static/tictactoe.png";
 import Colorswitcher from "../static/color switcher.png";
 import FB from "../static/fb img.png";
+import Todo from "../static/todo.png";
 import Emoji from "../static/emoji.png";
 import Tip from "../static/tip calculator.png";
 import QRcode from "../static/QR.png";
@@ -15,8 +17,7 @@ import Sound from "../static/sound.png";
       <section className="container workcontainer">
         <div className="works-wrap wrap">
           <div className="work-right-wrap">
-            
-              <ul className="works">
+          <ul className="works">
                 <a href="https://github.com/sivin-git/Calculator">
                   <div className="piece inner_container">
                     <div className="image">
@@ -27,6 +28,23 @@ import Sound from "../static/sound.png";
                       <h1 className="piece_title">Calculator</h1>
                       <p className="piece_description">
                         Calculator, build using JavaScript, CSS, HTML.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </ul>
+
+              <ul className="works">
+                <a href="https://github.com/sivin-git">
+                  <div className="piece inner_container">
+                    <div className="image">
+                      <img className="workimg" src={Clock} alt="" />
+                    </div>
+                    <div className="piece_content">
+                      <h1 className="piece_title">Digital Clock</h1>
+                      <p className="piece_description">
+                        Digital Clock website, build using JavaScript, CSS,
+                        HTML.
                       </p>
                     </div>
                   </div>
@@ -68,6 +86,39 @@ import Sound from "../static/sound.png";
               </ul>
 
               <ul className="works">
+                <a href="https://github.com/sivin-git/Fish-Bowl">
+                  <div className="piece inner_container">
+                    <div className="image">
+                      <img className="workimg" src={Fishbowl} alt=""/>
+                    </div>
+                    <div className="piece_content">
+                      <h1 className="piece_title">Fish Bowl</h1>
+                      <p className="piece_description">
+                        Moving animated fish Bowl, build using CSS, HTML.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </ul>
+
+              <ul className="works">
+                <a href="https://github.com/sivin-git/Color-Switcher">
+                  <div className="piece inner_container">
+                    <div className="image">
+                      <img
+                        className="workimg" src={TicTacToe} alt=""/>
+                    </div>
+                    <div className="piece_content">
+                      <h1 className="piece_title">Tic-tac-toe</h1>
+                      <p className="piece_description">
+                      Tic-tac-toe game, build using JavaScript, CSS, HTML.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </ul>
+
+              <ul className="works">
                 <a href="https://github.com/sivin-git/Color-Switcher">
                   <div className="piece inner_container">
                     <div className="image">
@@ -85,32 +136,15 @@ import Sound from "../static/sound.png";
               </ul>
 
               <ul className="works">
-                <a href="https://github.com/sivin-git">
+                <a href="https://github.com/sivin-git/Fish-Bowl">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={Clock} alt="" />
+                      <img className="workimg" src={Todo} alt=""/>
                     </div>
                     <div className="piece_content">
-                      <h1 className="piece_title">Digital Clock</h1>
+                      <h1 className="piece_title">Todo App</h1>
                       <p className="piece_description">
-                        Digital Clock website, build using JavaScript, CSS,
-                        HTML.
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </ul>
-
-              <ul className="works">
-                <a href="https://github.com/sivin-git/QRCode-Generator">
-                  <div className="piece inner_container">
-                    <div className="image">
-                      <img className="workimg" src={QRcode} alt="" />
-                    </div>
-                    <div className="piece_content">
-                      <h1 className="piece_title">QR Code Generator</h1>
-                      <p className="piece_description">
-                        QRCode Generator, build using JavaScript, CSS, HTML.
+                        Web Todo App, build using React JS, CSS, HTML.
                       </p>
                     </div>
                   </div>
@@ -134,21 +168,21 @@ import Sound from "../static/sound.png";
               </ul>
 
               <ul className="works">
-                <a href="https://github.com/sivin-git/Fish-Bowl">
+                <a href="https://github.com/sivin-git/QRCode-Generator">
                   <div className="piece inner_container">
                     <div className="image">
-                      <img className="workimg" src={Fishbowl} alt=""/>
+                      <img className="workimg" src={QRcode} alt="" />
                     </div>
                     <div className="piece_content">
-                      <h1 className="piece_title">Fish Bowl</h1>
+                      <h1 className="piece_title">QR Code Generator</h1>
                       <p className="piece_description">
-                        Moving animated fish Bowl, build using CSS, HTML.
+                        QRCode Generator, build using JavaScript, CSS, HTML.
                       </p>
                     </div>
                   </div>
                 </a>
               </ul>
-            
+              
               <ul className="works">
                 <a href="https://github.com/sivin-git/Emoji-Switcher">
                   <div className="piece inner_container">
