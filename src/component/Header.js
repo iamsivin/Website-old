@@ -1,13 +1,15 @@
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import Logo from "../logo.jpeg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
  const Header = () => {
     return (
       <header>
         <div className="container header-wrap">
           <div className="block left pro-wrap">
-            <img className="pro-pic" src={Logo} alt=""/>
+            <LazyLoadImage className="pro-pic" src={Logo} effect="blur" alt=""/>
           </div>
           <div className="block right">
             <nav className="nav-link">
