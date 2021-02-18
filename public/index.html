@@ -3,21 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="icon" sizes="32x32" type="image/png" href="%PUBLIC_URL%/favicon.png">
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+      href="%PUBLIC_URL%/favicon.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="Sivin Varghese"
-      content="A front-end developer from India."
-    />
+    <meta name="Sivin Varghese" content="A front-end developer from India." />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Sivin Varghese</title>
   </head>
   <body>
     <div id="root"></div>
-    
   </body>
+
+  <script>
+    (function (d, t) {
+      var BASE_URL = "https://app.chatwoot.com";
+      var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+      g.src = BASE_URL + "/packs/js/sdk.js";
+      s.parentNode.insertBefore(g, s);
+      g.onload = function () {
+        window.chatwootSDK.run({
+          websiteToken: "uxiHnrYCZAuwovHzgiJpnRVS",
+          baseUrl: BASE_URL,
+        });
+      };
+    })(document, "script");
+  </script>
 </html>
