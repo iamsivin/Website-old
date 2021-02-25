@@ -2,14 +2,14 @@ import "./Works.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import Calculator from "../static/calculator.png";
-import Fishbowl from "../static/fish bowl.png";
+// import Fishbowl from "../static/fish bowl.png";
 // import Chatnow from "../static/chatnow.png";
 import TicTacToe from "../static/tictactoe.png";
-import Colorswitcher from "../static/color switcher.png";
-import FB from "../static/fb img.png";
+// import Colorswitcher from "../static/color switcher.png";
+// import FB from "../static/fb img.png";
 import Todo from "../static/todo.png";
 import Emoji from "../static/emoji.png";
-import Tip from "../static/tip calculator.png";
+// import Tip from "../static/tip calculator.png";
 import QRcode from "../static/QR.png";
 import Clock from "../static/digital clock.png";
 import Sound from "../static/sound.png";
@@ -61,9 +61,9 @@ const Works = () => {
             </a>
           </ul>
 
-          <ul className="works" >
+          <ul className="works">
             <a href="https://github.com/sivin-git/ChatNow">
-              <div className="piece inner_container" >
+              <div className="piece inner_container">
                 <div className="image">
                   <LazyLoadImage
                     className="workimg"
@@ -88,7 +88,7 @@ const Works = () => {
                 <div className="image">
                   <LazyLoadImage
                     className="workimg"
-                    src={FB}
+                    src="https://res.cloudinary.com/https-www-sivin-me/image/upload/v1614266453/fb_img_hp8bnk.png"
                     alt=""
                     effect="blur"
                   />
@@ -109,7 +109,7 @@ const Works = () => {
                 <div className="image">
                   <LazyLoadImage
                     className="workimg"
-                    src={Fishbowl}
+                    src="https://res.cloudinary.com/https-www-sivin-me/image/upload/v1614266426/fish_bowl_lznzzc.png"
                     alt=""
                     effect="blur"
                   />
@@ -151,7 +151,7 @@ const Works = () => {
                 <div className="image">
                   <LazyLoadImage
                     className="workimg"
-                    src={Colorswitcher}
+                    src="https://res.cloudinary.com/https-www-sivin-me/image/upload/v1614266507/color_switcher_g9qhvp.jpg"
                     alt=""
                     effect="blur"
                   />
@@ -193,7 +193,7 @@ const Works = () => {
                 <div className="image">
                   <LazyLoadImage
                     className="workimg"
-                    src={Tip}
+                    src="https://res.cloudinary.com/https-www-sivin-me/image/upload/v1614266435/tip_calculator_oqtfuu.png"
                     alt=""
                     effect="blur"
                   />
