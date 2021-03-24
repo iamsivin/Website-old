@@ -2,7 +2,7 @@ header {
   display: block;
   width: 100%;
   position: fixed;
-  padding: 2.4rem 0;
+  padding: 24px 0;
   z-index: 9999;
   background: #fdfdfd;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
