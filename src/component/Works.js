@@ -180,7 +180,7 @@ const Works = () => {
                 <div className="piece_content">
                   <h1 className="piece_title">Todo App</h1>
                   <p className="piece_description">
-                    Web Todo App, build using React JS, CSS, HTML.
+                    Web Todo App, build using Vuex, CSS, HTML.
                   </p>
                 </div>
               </div>
