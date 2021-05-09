@@ -72,7 +72,7 @@ const About = () => {
                       <li>
                         <a
                           id="social_share_instagram"
-                          href="https://www.instagram.com/_psy.kid___/">
+                          href="https://www.instagram.com/siv.__in/">
                         </a>
                       </li>
                     </div>
