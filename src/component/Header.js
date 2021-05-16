@@ -12,57 +12,132 @@ export default class ScrollToTop extends Component {
       behavior: "smooth",
     });
   }
+  constructor() {
+    super();
+    this.state = {
+      width: window.innerWidth,
+    };
+  }
+
+  componentWillMount() {
+    window.addEventListener("resize", this.handleWindowSizeChange);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleWindowSizeChange);
+  }
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  };
+
   render() {
-    return (
-      <header>
-        <div className="container header-wrap">
-          <div className="block left pro-wrap">
-            <LazyLoadImage
-              className="pro-pic"
-              src={Logo}
-              effect="blur"
-              onClick={() => this.scrollToTop()}
-              alt=""
-              title="Scroll to top"
-            />
-          </div>
-          <div className="block right">
-            <div className="nav-link">
-              <Link
-                activeClass="active"
-                className="about-link"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={300}
-              >
-                About
-              </Link>
-              <Link
-                activeClass="active"
-                to="work"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={300}
-              >
-                Works
-              </Link>
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={400}
-              >
-                Contact
-              </Link>
+    const { width } = this.state;
+    const isMobile = width <= 611;
+    if (isMobile) {
+      return (
+        <header>
+          <div className="container header-wrap">
+            <div className="block left pro-wrap">
+              <LazyLoadImage
+                className="pro-pic"
+                src={Logo}
+                effect="blur"
+                onClick={() => this.scrollToTop()}
+                alt=""
+                title="Scroll to top"
+              />
+            </div>
+            <div className="block right">
+              <div className="nav-link">
+                <Link
+                  activeClass="active"
+                  className="about-link"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={300}
+                >
+                  About
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-160}
+                  duration={400}
+                >
+                  Contact
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={300}
+                >
+                  Works
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
-    );
+        </header>
+      );
+    } else {
+      return (
+        <header>
+          <div className="container header-wrap">
+            <div className="block left pro-wrap">
+              <LazyLoadImage
+                className="pro-pic"
+                src={Logo}
+                effect="blur"
+                onClick={() => this.scrollToTop()}
+                alt=""
+                title="Scroll to top"
+              />
+            </div>
+            <div className="block right">
+              <div className="nav-link">
+                <Link
+                  activeClass="active"
+                  className="about-link"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={300}
+                >
+                  About
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={300}
+                >
+                  Works
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-160}
+                  duration={400}
+                >
+                  Contact
+                </Link>
+              </div>
+            </div>
+          </div>
+        </header>
+      );
+    }
   }
 }
