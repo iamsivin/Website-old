@@ -76,7 +76,7 @@ export default class ScrollToTop extends Component {
                   to="work"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-90}
                   duration={300}
                 >
                   Works
