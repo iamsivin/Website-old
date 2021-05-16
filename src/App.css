@@ -30,7 +30,6 @@ body {
   margin-right: 0px;
 }
 
-
 @media only screen and (min-width: 731px) and (max-width: 1024px) {
   body {
     padding: 0;
@@ -40,7 +39,6 @@ body {
 
   .container {
     margin: 0;
-    width: calc(90% - 200px);
   }
 
   .block {

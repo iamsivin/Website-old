@@ -7,11 +7,11 @@
   grid-template-columns: repeat(3, 0.5fr);
   justify-content: center !important;
   gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 15px;
 }
 
 .wrap {
-  margin-top: 130px;
+  margin-top: 30px;
 }
 
 .inner_container {
@@ -71,20 +71,62 @@ a:focus {
   outline: none;
 }
 
-@media only screen and (min-width: 731px) and (max-width: 1150px) {
+@media only screen and (min-width: 1026px) and (max-width: 1160px) {
+  .work-right-wrap {
+    display: grid;
+    justify-content: center !important;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media only screen and (min-width: 926px) and (max-width: 1025px) {
+  .container {
+    width: calc(100% - 110px - 48px) !important;
+  }
+
+  .work-name h2 {
+    margin-bottom: 0 !important;
+  }
+
   .work-right-wrap {
     display: grid;
     justify-content: center !important;
     grid-template-columns: repeat(2, 2fr);
   }
 
-  .workcontainer {
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .inner_container {
+    max-width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 731px) and (max-width: 925px) {
+  .container {
+    width: calc(100% - 116px - 48px) !important;
+  }
+
+  .work-right-wrap {
+    display: grid;
+    justify-content: center !important;
+    grid-template-columns: repeat(2, 2fr);
   }
 
   .inner_container {
-    max-width: 300px !important;
+    max-width: 400px !important;
+  }
+
+  .works-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .works {
+    display: flex;
+  }
+
+  .work-name {
+    margin-bottom: 0.5rem;
+    margin-top: 15px;
+    padding-left: 1.2rem;
   }
 
   .workimg {
@@ -98,13 +140,16 @@ a:focus {
 
 @media only screen and (min-width: 611px) and (max-width: 730px) {
   .works-wrap {
-    margin-top: 110px;
+    margin-top: 20px;
     margin-bottom: 80px;
   }
 
-  .workcontainer {
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .container {
+    width: calc(100% - 145px - 48px) !important;
+  }
+
+  .work-name {
+    display: none;
   }
 
   .work-right-wrap {
@@ -140,7 +185,7 @@ a:focus {
 
 @media only screen and (min-width: 510px) and (max-width: 610px) {
   .works-wrap {
-    margin-top: 110px;
+    margin-top: 20px;
     margin-bottom: 80px;
   }
 
@@ -153,6 +198,10 @@ a:focus {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+  }
+
+  .work-name {
+    display: none;
   }
 
   .block.right {
@@ -188,13 +237,16 @@ a:focus {
 
 @media only screen and (min-width: 430px) and (max-width: 509px) {
   .works-wrap {
-    margin-top: 110px;
+    margin-top: 20px;
     margin-bottom: 80px;
   }
 
-  .workcontainer {
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .work-container {
+    margin: auto !important;
+  }
+
+  .work-name {
+    display: none;
   }
 
   .work-right-wrap {
@@ -226,19 +278,22 @@ a:focus {
 
 @media only screen and (min-width: 351px) and (max-width: 429px) {
   .works-wrap {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 80px;
   }
 
-  .workcontainer {
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .work-container {
+    margin: auto !important;
   }
 
   .work-right-wrap {
     display: grid;
     justify-content: center !important;
     grid-template-columns: repeat(1, 0fr);
+  }
+
+  .work-name {
+    display: none;
   }
 
   .piece_content {
@@ -269,15 +324,18 @@ a:focus {
     border-radius: 6px;
   }
 
-  .workcontainer {
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .work-container {
+    margin: auto !important;
   }
 
   .works-wrap {
     display: block;
     margin-top: 70px;
     margin-bottom: 80px;
+  }
+
+  .work-name {
+    display: none;
   }
 
   .work-right-wrap {

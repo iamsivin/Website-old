@@ -16,8 +16,11 @@ import Sound from "../static/sound.png";
 
 const Works = () => {
   return (
-    <section className="container workcontainer">
-      <div className="works-wrap wrap">
+    <section className="container work-container" id="work">
+      <div className="works-wrap wrap name">
+        <div className="work-name">
+          <h2>Works</h2>
+        </div>
         <div className="work-right-wrap">
           <ul className="works">
             <a href="https://github.com/sivin-git/Calculator">

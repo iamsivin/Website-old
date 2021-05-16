@@ -1,16 +1,18 @@
 import Header from "./component/Header";
 import About from "./component/About";
+import Contact from "./component/Contact";
 import Works from "./component/Works";
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <Router>
+    <div className="App">
       <Header />
-      <Route path="/" exact component={About} />
-      <Route path="/Work" component={Works} />
-    </Router>
+      <About />
+      <Works />
+      <Contact />
+    </div>
   );
-}
+};
+
 export default App;

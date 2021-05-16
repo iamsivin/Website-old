@@ -1,0 +1,466 @@
+.contact {
+  height: 10.8rem;
+}
+
+section.contact #social_share_list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.block ul li {
+  list-style-type: none;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+section.contact #social_share_list li a {
+  display: block;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-position: center;
+  color: transparent;
+  transition: 0.25s all ease;
+}
+
+.block ul li a {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.sharelinks {
+  display: flex;
+  flex-direction: row;
+}
+
+section.contact #social_share_list li a#social_share_github {
+  background-image: url("../link icon/github.png");
+  background-size: 160px;
+  margin-right: 10px;
+}
+
+section.contact #social_share_list li a#social_share_email {
+  background-image: url("../link icon/mail.png");
+  background-size: 160px;
+  margin-right: 10px;
+}
+
+section.contact #social_share_list li a#social_share_twitter {
+  background-image: url("../link icon/twitter.png");
+  background-size: 160px;
+  margin-right: 10px;
+}
+
+section.contact #social_share_list li a#social_share_link {
+  background-image: url("../link icon/linkedin.png");
+  background-size: 160px;
+  margin-right: 10px;
+}
+
+section.contact #social_share_list li a#social_share_instagram {
+  background-image: url("../link icon/instagram\ black.png");
+  background-size: 160px;
+  margin-right: 10px;
+}
+
+section.contact #social_share_list li a#social_share_fb {
+  background-image: url("../link icon/facebook.png");
+  background-size: 160px;
+  margin-right: 10px;
+}
+
+#social_share_github:hover {
+  transform: scale(1.06);
+  transition: transform 0.5s ease;
+}
+
+#social_share_email:hover {
+  transform: scale(1.06);
+  transition: transform 0.5s ease;
+}
+
+#social_share_twitter:hover {
+  transform: scale(1.06);
+  transition: transform 0.5s ease;
+}
+
+#social_share_link:hover {
+  transform: scale(1.06);
+  transition: transform 0.5s ease;
+}
+
+#social_share_instagram:hover {
+  transform: scale(1.06);
+  transition: transform 0.5s ease;
+}
+
+#social_share_fb:hover {
+  transform: scale(1.06);
+  transition: transform 0.5s ease;
+}
+
+@media only screen and (min-width: 731px) and (max-width: 1024px) {
+  .contact-name {
+    padding-left: 0;
+  }
+
+  .block {
+    width: 65% !important;
+  }
+
+  section.contact #social_share_list li a#social_share_github {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_email {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_link {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_twitter {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_instagram {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_fb {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 611px) and (max-width: 730px) {
+  .contact-container {
+    justify-content: center !important;
+  }
+
+  .block-small {
+    width: auto !important;
+  }
+
+  .contact-name {
+    display: none;
+  }
+
+  .contacts {
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .sharelinks {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 35px;
+    grid-template-rows: 70px;
+    padding-left: 5px;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+
+  section.contact #social_share_list li a {
+    width: 65px;
+    height: 65px;
+  }
+
+  section.contact #social_share_list li a#social_share_github {
+    background-size: 160px;
+  }
+
+  section.contact #social_share_list li a#social_share_email {
+    background-size: 170px;
+  }
+
+  section.contact #social_share_list li a#social_share_link {
+    background-size: 170px;
+  }
+
+  section.contact #social_share_list li a#social_share_twitter {
+    background-size: 170px;
+  }
+
+  section.contact #social_share_list li a#social_share_instagram {
+    background-size: 160px;
+  }
+
+  section.contact #social_share_list li a#social_share_fb {
+    background-size: 170px;
+  }
+
+  .right {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 610px) {
+  .contact-container {
+    justify-content: center !important;
+  }
+
+  .block-small {
+    width: auto !important;
+  }
+
+  .contact-name {
+    display: none;
+  }
+
+  .block.right {
+    margin-left: 0px;
+  }
+
+  .contacts {
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .sharelinks {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 35px;
+    grid-template-rows: 70px;
+    padding-left: 5px;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+
+  section.contact #social_share_list li a {
+    width: 65px;
+    height: 65px;
+  }
+
+  section.contact #social_share_list li a#social_share_github {
+    background-size: 160px;
+  }
+
+  section.contact #social_share_list li a#social_share_email {
+    background-size: 170px;
+  }
+
+  section.contact #social_share_list li a#social_share_link {
+    background-size: 170px;
+  }
+
+  section.contact #social_share_list li a#social_share_twitter {
+    background-size: 170px;
+  }
+
+  section.contact #social_share_list li a#social_share_instagram {
+    background-size: 160px;
+  }
+
+  section.contact #social_share_list li a#social_share_fb {
+    background-size: 170px;
+  }
+
+  .right {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 509px) {
+  .contact-container {
+    justify-content: center !important;
+    margin: auto !important;
+  }
+
+  .block-small {
+    width: auto !important;
+  }
+
+  .contacts {
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .contact-name {
+    display: none;
+  }
+
+  .sharelinks {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 35px;
+    position: relative;
+    grid-template-rows: 70px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+
+  section.contact #social_share_list li a {
+    width: 65px;
+    height: 65px;
+  }
+
+  section.contact #social_share_list li a#social_share_github {
+    background-size: 155px;
+  }
+
+  section.contact #social_share_list li a#social_share_email {
+    background-size: 155px;
+  }
+
+  section.contact #social_share_list li a#social_share_link {
+    background-size: 155px;
+  }
+
+  section.contact #social_share_list li a#social_share_twitter {
+    background-size: 155px;
+  }
+
+  section.contact #social_share_list li a#social_share_instagram {
+    background-size: 155px;
+  }
+
+  section.contact #social_share_list li a#social_share_fb {
+    background-size: 155px;
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 429px) {
+  .contact-container {
+    justify-content: center !important;
+    margin: auto !important;
+  }
+
+  .block-small {
+    width: auto !important;
+  }
+
+  .contacts {
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .contact-name {
+    display: none;
+  }
+
+  .sharelinks {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 26px;
+    position: relative;
+    grid-template-rows: 70px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+
+  section.contact #social_share_list li a {
+    width: 64px;
+    height: 64px;
+  }
+
+  section.contact #social_share_list li a#social_share_github {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_email {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_link {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_twitter {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_instagram {
+    background-size: 130px;
+  }
+
+  section.contact #social_share_list li a#social_share_fb {
+    background-size: 130px;
+  }
+
+  section.contact {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 350px) {
+  .contact-container {
+    justify-content: center !important;
+    margin: auto !important;
+  }
+
+  .block-small {
+    width: auto !important;
+  }
+
+  .contacts {
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .contact-name {
+    display: none;
+  }
+
+  .sharelinks {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 10px;
+    position: relative;
+    grid-template-rows: 70px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+
+  section.contact #social_share_list li a {
+    width: 64px;
+    height: 64px;
+  }
+
+  section.contact #social_share_list li a#social_share_github {
+    background-size: 115px;
+  }
+
+  section.contact #social_share_list li a#social_share_email {
+    background-size: 115px;
+  }
+
+  section.contact #social_share_list li a#social_share_link {
+    background-size: 115px;
+  }
+
+  section.contact #social_share_list li a#social_share_twitter {
+    background-size: 115px;
+  }
+
+  section.contact #social_share_list li a#social_share_instagram {
+    background-size: 115px;
+  }
+
+  section.contact #social_share_list li a#social_share_fb {
+    background-size: 115px;
+  }
+
+  section.contact {
+    margin-bottom: 0;
+  }
+}
