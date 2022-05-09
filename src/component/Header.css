@@ -10,8 +10,8 @@ header {
 }
 
 header .left img {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
 }
 
@@ -59,8 +59,8 @@ header div a:hover {
   }
 
   header .left img {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
   }
 

@@ -1,7 +1,7 @@
 import "./Header.css";
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import Logo from "../logo.jpeg";
+import Logo from "../logo.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
